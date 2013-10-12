@@ -12,5 +12,10 @@
     "opengraph",
     "facebook"
   ],
-  "author": "Scott Mebberson"
+  "author": "Scott Mebberson",
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "should": "~2.0.1",
+    "mongoose": "~3.6.20"
+  }
 }
