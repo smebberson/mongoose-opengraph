@@ -1,6 +1,6 @@
 {
   "name": "mongoose-opengraph",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A mongoose plugin allowing you to easily add properties required by the open graph protocol",
   "main": "lib/opengraph.js",
   "repository": {
