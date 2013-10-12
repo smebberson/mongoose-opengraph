@@ -13,8 +13,11 @@ describe('opengraph', function () {
 		PostSchema.plugin(opengraph);
 
 		PostSchema.paths.should.have.property('ogTitle');
+		PostSchema.paths['ogTitle'].should.include({instance:'String'});
 		PostSchema.paths.should.have.property('ogDescription');
+		PostSchema.paths['ogDescription'].should.include({instance:'String'});
 		PostSchema.paths.should.have.property('ogImage');
+		PostSchema.paths['ogImage'].should.include({instance:'String'});
 
 	});
 
